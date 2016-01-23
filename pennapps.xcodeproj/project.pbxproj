@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED50C6EA1C5335E200024D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C6E91C5335E200024D24 /* main.m */; };
+		ED50C6ED1C5335E200024D24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C6EC1C5335E200024D24 /* AppDelegate.m */; };
+		ED50C6F01C5335E200024D24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C6EF1C5335E200024D24 /* ViewController.m */; };
+		ED50C6F31C5335E200024D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED50C6F11C5335E200024D24 /* Main.storyboard */; };
+		ED50C6F51C5335E200024D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED50C6F41C5335E200024D24 /* Assets.xcassets */; };
+		ED50C6F81C5335E200024D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED50C6F61C5335E200024D24 /* LaunchScreen.storyboard */; };
+		ED50C7031C5335E200024D24 /* pennappsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C7021C5335E200024D24 /* pennappsTests.m */; };
+		ED50C70E1C5335E200024D24 /* pennappsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C70D1C5335E200024D24 /* pennappsUITests.m */; };
+		ED50C71C1C534C7400024D24 /* HoundSDK in Resources */ = {isa = PBXBuildFile; fileRef = ED50C71B1C534C7400024D24 /* HoundSDK */; };
+		ED50C7221C53D95A00024D24 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C71D1C53D95A00024D24 /* Accelerate.framework */; };
+		ED50C7231C53D95A00024D24 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C71E1C53D95A00024D24 /* AudioToolbox.framework */; };
+		ED50C7241C53D95A00024D24 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C71F1C53D95A00024D24 /* AVFoundation.framework */; };
+		ED50C7251C53D95A00024D24 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C7201C53D95A00024D24 /* libc++.tbd */; };
+		ED50C7261C53D95A00024D24 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C7211C53D95A00024D24 /* libz.tbd */; };
+		ED50C7281C53DD1E00024D24 /* libHoundSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C7271C53DD1E00024D24 /* libHoundSDK.a */; };
+		ED50C72A1C53DD3800024D24 /* HoundSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED50C7291C53DD3800024D24 /* HoundSDK.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED50C6FF1C5335E200024D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED50C6DD1C5335E200024D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED50C6E41C5335E200024D24;
+			remoteInfo = pennapps;
+		};
+		ED50C70A1C5335E200024D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED50C6DD1C5335E200024D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED50C6E41C5335E200024D24;
+			remoteInfo = pennapps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED50C6E51C5335E200024D24 /* pennapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pennapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED50C6E91C5335E200024D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED50C6EB1C5335E200024D24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED50C6EC1C5335E200024D24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED50C6EE1C5335E200024D24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED50C6EF1C5335E200024D24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED50C6F21C5335E200024D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED50C6F41C5335E200024D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED50C6F71C5335E200024D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED50C6F91C5335E200024D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED50C6FE1C5335E200024D24 /* pennappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pennappsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED50C7021C5335E200024D24 /* pennappsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pennappsTests.m; sourceTree = "<group>"; };
+		ED50C7041C5335E200024D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED50C7091C5335E200024D24 /* pennappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pennappsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED50C70D1C5335E200024D24 /* pennappsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pennappsUITests.m; sourceTree = "<group>"; };
+		ED50C70F1C5335E200024D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED50C71B1C534C7400024D24 /* HoundSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HoundSDK; sourceTree = "<group>"; };
+		ED50C71D1C53D95A00024D24 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		ED50C71E1C53D95A00024D24 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ED50C71F1C53D95A00024D24 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ED50C7201C53D95A00024D24 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ED50C7211C53D95A00024D24 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ED50C7271C53DD1E00024D24 /* libHoundSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHoundSDK.a; path = ../HoundSDK/libHoundSDK.a; sourceTree = "<group>"; };
+		ED50C7291C53DD3800024D24 /* HoundSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = HoundSDK.xcassets; path = ../HoundSDK/HoundSDK.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED50C6E21C5335E200024D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50C7221C53D95A00024D24 /* Accelerate.framework in Frameworks */,
+				ED50C7231C53D95A00024D24 /* AudioToolbox.framework in Frameworks */,
+				ED50C7241C53D95A00024D24 /* AVFoundation.framework in Frameworks */,
+				ED50C7281C53DD1E00024D24 /* libHoundSDK.a in Frameworks */,
+				ED50C7251C53D95A00024D24 /* libc++.tbd in Frameworks */,
+				ED50C7261C53D95A00024D24 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED50C6FB1C5335E200024D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED50C7061C5335E200024D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED50C6DC1C5335E200024D24 = {
+			isa = PBXGroup;
+			children = (
+				ED50C71D1C53D95A00024D24 /* Accelerate.framework */,
+				ED50C71E1C53D95A00024D24 /* AudioToolbox.framework */,
+				ED50C71F1C53D95A00024D24 /* AVFoundation.framework */,
+				ED50C7201C53D95A00024D24 /* libc++.tbd */,
+				ED50C7211C53D95A00024D24 /* libz.tbd */,
+				ED50C71B1C534C7400024D24 /* HoundSDK */,
+				ED50C6E71C5335E200024D24 /* pennapps */,
+				ED50C7011C5335E200024D24 /* pennappsTests */,
+				ED50C70C1C5335E200024D24 /* pennappsUITests */,
+				ED50C6E61C5335E200024D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED50C6E61C5335E200024D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED50C6E51C5335E200024D24 /* pennapps.app */,
+				ED50C6FE1C5335E200024D24 /* pennappsTests.xctest */,
+				ED50C7091C5335E200024D24 /* pennappsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED50C6E71C5335E200024D24 /* pennapps */ = {
+			isa = PBXGroup;
+			children = (
+				ED50C7291C53DD3800024D24 /* HoundSDK.xcassets */,
+				ED50C7271C53DD1E00024D24 /* libHoundSDK.a */,
+				ED50C6EB1C5335E200024D24 /* AppDelegate.h */,
+				ED50C6EC1C5335E200024D24 /* AppDelegate.m */,
+				ED50C6EE1C5335E200024D24 /* ViewController.h */,
+				ED50C6EF1C5335E200024D24 /* ViewController.m */,
+				ED50C6F11C5335E200024D24 /* Main.storyboard */,
+				ED50C6F41C5335E200024D24 /* Assets.xcassets */,
+				ED50C6F61C5335E200024D24 /* LaunchScreen.storyboard */,
+				ED50C6F91C5335E200024D24 /* Info.plist */,
+				ED50C6E81C5335E200024D24 /* Supporting Files */,
+			);
+			path = pennapps;
+			sourceTree = "<group>";
+		};
+		ED50C6E81C5335E200024D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED50C6E91C5335E200024D24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED50C7011C5335E200024D24 /* pennappsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED50C7021C5335E200024D24 /* pennappsTests.m */,
+				ED50C7041C5335E200024D24 /* Info.plist */,
+			);
+			path = pennappsTests;
+			sourceTree = "<group>";
+		};
+		ED50C70C1C5335E200024D24 /* pennappsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED50C70D1C5335E200024D24 /* pennappsUITests.m */,
+				ED50C70F1C5335E200024D24 /* Info.plist */,
+			);
+			path = pennappsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED50C6E41C5335E200024D24 /* pennapps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED50C7121C5335E200024D24 /* Build configuration list for PBXNativeTarget "pennapps" */;
+			buildPhases = (
+				ED50C6E11C5335E200024D24 /* Sources */,
+				ED50C6E21C5335E200024D24 /* Frameworks */,
+				ED50C6E31C5335E200024D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pennapps;
+			productName = pennapps;
+			productReference = ED50C6E51C5335E200024D24 /* pennapps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED50C6FD1C5335E200024D24 /* pennappsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED50C7151C5335E200024D24 /* Build configuration list for PBXNativeTarget "pennappsTests" */;
+			buildPhases = (
+				ED50C6FA1C5335E200024D24 /* Sources */,
+				ED50C6FB1C5335E200024D24 /* Frameworks */,
+				ED50C6FC1C5335E200024D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED50C7001C5335E200024D24 /* PBXTargetDependency */,
+			);
+			name = pennappsTests;
+			productName = pennappsTests;
+			productReference = ED50C6FE1C5335E200024D24 /* pennappsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED50C7081C5335E200024D24 /* pennappsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED50C7181C5335E200024D24 /* Build configuration list for PBXNativeTarget "pennappsUITests" */;
+			buildPhases = (
+				ED50C7051C5335E200024D24 /* Sources */,
+				ED50C7061C5335E200024D24 /* Frameworks */,
+				ED50C7071C5335E200024D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED50C70B1C5335E200024D24 /* PBXTargetDependency */,
+			);
+			name = pennappsUITests;
+			productName = pennappsUITests;
+			productReference = ED50C7091C5335E200024D24 /* pennappsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED50C6DD1C5335E200024D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Francesco Polizzi";
+				TargetAttributes = {
+					ED50C6E41C5335E200024D24 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					ED50C6FD1C5335E200024D24 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ED50C6E41C5335E200024D24;
+					};
+					ED50C7081C5335E200024D24 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ED50C6E41C5335E200024D24;
+					};
+				};
+			};
+			buildConfigurationList = ED50C6E01C5335E200024D24 /* Build configuration list for PBXProject "pennapps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED50C6DC1C5335E200024D24;
+			productRefGroup = ED50C6E61C5335E200024D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED50C6E41C5335E200024D24 /* pennapps */,
+				ED50C6FD1C5335E200024D24 /* pennappsTests */,
+				ED50C7081C5335E200024D24 /* pennappsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED50C6E31C5335E200024D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50C71C1C534C7400024D24 /* HoundSDK in Resources */,
+				ED50C72A1C53DD3800024D24 /* HoundSDK.xcassets in Resources */,
+				ED50C6F81C5335E200024D24 /* LaunchScreen.storyboard in Resources */,
+				ED50C6F51C5335E200024D24 /* Assets.xcassets in Resources */,
+				ED50C6F31C5335E200024D24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED50C6FC1C5335E200024D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED50C7071C5335E200024D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED50C6E11C5335E200024D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50C6F01C5335E200024D24 /* ViewController.m in Sources */,
+				ED50C6ED1C5335E200024D24 /* AppDelegate.m in Sources */,
+				ED50C6EA1C5335E200024D24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED50C6FA1C5335E200024D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50C7031C5335E200024D24 /* pennappsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED50C7051C5335E200024D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED50C70E1C5335E200024D24 /* pennappsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED50C7001C5335E200024D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED50C6E41C5335E200024D24 /* pennapps */;
+			targetProxy = ED50C6FF1C5335E200024D24 /* PBXContainerItemProxy */;
+		};
+		ED50C70B1C5335E200024D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED50C6E41C5335E200024D24 /* pennapps */;
+			targetProxy = ED50C70A1C5335E200024D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED50C6F11C5335E200024D24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED50C6F21C5335E200024D24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED50C6F61C5335E200024D24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED50C6F71C5335E200024D24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED50C7101C5335E200024D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED50C7111C5335E200024D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED50C7131C5335E200024D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					/Users/fpozlizzi/untitled,
+					folder/pennapps/HoundSDK/include,
+				);
+				INFOPLIST_FILE = pennapps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HoundSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vr.pennapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED50C7141C5335E200024D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					/Users/fpozlizzi/untitled,
+					folder/pennapps/HoundSDK/include,
+				);
+				INFOPLIST_FILE = pennapps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HoundSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vr.pennapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED50C7161C5335E200024D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pennappsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.pennappsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pennapps.app/pennapps";
+			};
+			name = Debug;
+		};
+		ED50C7171C5335E200024D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pennappsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.pennappsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pennapps.app/pennapps";
+			};
+			name = Release;
+		};
+		ED50C7191C5335E200024D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pennappsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.pennappsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pennapps;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED50C71A1C5335E200024D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pennappsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.pennappsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pennapps;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED50C6E01C5335E200024D24 /* Build configuration list for PBXProject "pennapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED50C7101C5335E200024D24 /* Debug */,
+				ED50C7111C5335E200024D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED50C7121C5335E200024D24 /* Build configuration list for PBXNativeTarget "pennapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED50C7131C5335E200024D24 /* Debug */,
+				ED50C7141C5335E200024D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED50C7151C5335E200024D24 /* Build configuration list for PBXNativeTarget "pennappsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED50C7161C5335E200024D24 /* Debug */,
+				ED50C7171C5335E200024D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED50C7181C5335E200024D24 /* Build configuration list for PBXNativeTarget "pennappsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED50C7191C5335E200024D24 /* Debug */,
+				ED50C71A1C5335E200024D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED50C6DD1C5335E200024D24 /* Project object */;
+}
