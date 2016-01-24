@@ -10,8 +10,10 @@
 #import "ProcessSpeech.h"
 
 @interface ViewController ()<AVAudioRecorderDelegate>
+
 @property (nonatomic,strong) UILongPressGestureRecognizer *lpgr;
 @property NSString* state;
+@property NSString* returnIntent;
 
 @end
 
@@ -33,10 +35,16 @@
     if ([sender isEqual:self.lpgr]) {
         if (sender.state == UIGestureRecognizerStateBegan)
         {
+            
             ProcessSpeech *speech = [ProcessSpeech new];
-            [speech start];
+            [speech start:^(NSString *myIntent){
+                _returnIntent = myIntent;
+                
+            }];
         }
     }
+    
+    NSLog(@"FROM CALLING FUNCTION: %@", _returnIntent);
 }
 
 - (void)didReceiveMemoryWarning {

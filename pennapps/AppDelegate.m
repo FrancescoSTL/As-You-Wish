@@ -19,8 +19,8 @@
     // Override point for customization after application launch.
     
     // set houndify sensitive info
-    [Hound setClientID:@"redacted"];
-    [Hound setClientKey:@"redacted"];
+    [Hound setClientID:@""];
+    [Hound setClientKey:@""];
     
     return YES;
 }

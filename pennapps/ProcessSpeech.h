@@ -13,8 +13,10 @@
 
 @interface ProcessSpeech : NSObject
 
-- (id)start;
-- (void)startSearch;
+- (void)start:(void (^)(id))firstCompletionHandler;
+- (void)startSearchWithCompletionHandler:(void (^)(id))completionHandler;
 - (NSString*)returnIntent;
+@property NSString *intent;
+@property dispatch_semaphore_t sema;
 
 @end

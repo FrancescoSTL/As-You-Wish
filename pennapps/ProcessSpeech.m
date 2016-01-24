@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import "ProcessSpeech.h"
 
 
@@ -18,24 +17,27 @@
     return self;
 }
 
--(id)start
+-(void)start:(void (^)(id))firstCompletionHandler
 {
     [HoundVoiceSearch.instance
      startListeningWithCompletionHandler:^(NSError* error) {
          dispatch_async(dispatch_get_main_queue(), ^{
              if(HoundVoiceSearchStateReady){
-                 NSLog(@"Started Listening");
+                 NSLog(@"Started Listening (in async)");
                  
-                 [self startSearch];
+                 [self startSearchWithCompletionHandler:^(NSString *myIntent){
+                     firstCompletionHandler(myIntent);
+                 }];
              }
          });
      }
      ];
     
-    return self;
+    //NSLog(@"OUT of async");
+    
 }
 
-- (void)startSearch
+- (void)startSearchWithCompletionHandler:(void (^)(id))completionHandler
 {
     NSDictionary* requestInfo = @{
                                   @"ClientMatches" : @[
@@ -138,6 +140,11 @@
                                                       NSDictionary* nativeData = commandResult[@"NativeData"];
                                                       
                                                       NSLog(@"NativeData: %@", nativeData);
+                                                      NSDictionary *result=[nativeData valueForKey:@"Result"];
+                                                      _intent =[result valueForKey:@"Intent"];
+                                                      //NSLog(@"%@", _intent);
+                                                      completionHandler(_intent);
+                                                      
                                                       
                                                       NSLog(@"Listening Ended");
                                                       [HoundVoiceSearch.instance
@@ -145,9 +152,12 @@
                                                            if(error)
                                                            {
                                                                NSLog(@"stopped listening error: %@", error);
+                                                               NSLog(@"returning value to calling function");
                                                            }
                                                        }
                                                        ];
+                                                      
+                                                      
                                                   }
                                               });
                                           }];
