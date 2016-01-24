@@ -23,6 +23,7 @@
 		ED50C7261C53D95A00024D24 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C7211C53D95A00024D24 /* libz.tbd */; };
 		ED50C7281C53DD1E00024D24 /* libHoundSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50C7271C53DD1E00024D24 /* libHoundSDK.a */; };
 		ED50C72A1C53DD3800024D24 /* HoundSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED50C7291C53DD3800024D24 /* HoundSDK.xcassets */; };
+		ED50C72D1C543B5600024D24 /* ProcessSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C72C1C543B5600024D24 /* ProcessSpeech.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		ED50C7211C53D95A00024D24 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		ED50C7271C53DD1E00024D24 /* libHoundSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHoundSDK.a; path = ../HoundSDK/libHoundSDK.a; sourceTree = "<group>"; };
 		ED50C7291C53DD3800024D24 /* HoundSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = HoundSDK.xcassets; path = ../HoundSDK/HoundSDK.xcassets; sourceTree = "<group>"; };
+		ED50C72B1C543B0400024D24 /* ProcessSpeech.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessSpeech.h; sourceTree = "<group>"; };
+		ED50C72C1C543B5600024D24 /* ProcessSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessSpeech.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				ED50C7271C53DD1E00024D24 /* libHoundSDK.a */,
 				ED50C6EB1C5335E200024D24 /* AppDelegate.h */,
 				ED50C6EC1C5335E200024D24 /* AppDelegate.m */,
+				ED50C72B1C543B0400024D24 /* ProcessSpeech.h */,
+				ED50C72C1C543B5600024D24 /* ProcessSpeech.m */,
 				ED50C6EE1C5335E200024D24 /* ViewController.h */,
 				ED50C6EF1C5335E200024D24 /* ViewController.m */,
 				ED50C6F11C5335E200024D24 /* Main.storyboard */,
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED50C6F01C5335E200024D24 /* ViewController.m in Sources */,
+				ED50C72D1C543B5600024D24 /* ProcessSpeech.m in Sources */,
 				ED50C6ED1C5335E200024D24 /* AppDelegate.m in Sources */,
 				ED50C6EA1C5335E200024D24 /* main.m in Sources */,
 			);

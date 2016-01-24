@@ -1,18 +1,20 @@
 //
-//  ViewController.h
+//  ProcessSpeech.h
 //  pennapps
 //
-//  Created by Francesco Polizzi on 1/22/16.
+//  Created by Francesco Polizzi on 1/23/16.
 //  Copyright © 2016 Francesco Polizzi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "../HoundSDK/include/HoundSDK/HoundSDK.h"
-#import "ProcessSpeech.h"
 
 @import AVFoundation;
 
+@interface ProcessSpeech : NSObject
 
-@interface ViewController : UIViewController
+- (id)start;
+- (void)startSearch;
+- (NSString*)returnIntent;
 
 @end
