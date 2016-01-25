@@ -39,7 +39,9 @@
             ProcessSpeech *speech = [ProcessSpeech new];
             [speech start:^(NSString *myIntent){
                 _returnIntent = myIntent;
-                
+                NSLog(@"----------------------------------------------");
+                NSLog(@"USER INTENT: %@", myIntent);
+                NSLog(@"----------------------------------------------");
             }];
         }
     }
