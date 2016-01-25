@@ -1,7 +1,7 @@
 ![Alt](http://i.imgur.com/rYnpSRo.png)
 
-# AbraCadabra
-Abracadabra is a VR iOS app for Google Cardboard that lets users build the world around them through spoken word commands. This particular repository holds the HoundifySDK communication piece written in Objective-C.
+# As You Wish
+As You Wish is a VR iOS app for Google Cardboard that lets users build the world around them through spoken word commands. This particular repository holds the HoundifySDK communication piece written in Objective-C.
 
 # How to Use
 Clone the repository and open pennapps.xcodeproj in XCode. Build the application, and click on the screen to initiate the HoundifySDK listening. The console will begin printing "Starting Searching," at which point, you should speak your command into the microphone (ex: create one cube).
