@@ -1,3 +1,5 @@
+![Alt](http://i.imgur.com/afc4AXh.png)
+
 # AbraCadabra
 Abracadabra is a VR iOS app for Google Cardboard that lets users build the world around them through spoken word commands. This particular repository holds the HoundifySDK communication piece written in Objective-C.
 
